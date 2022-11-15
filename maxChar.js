@@ -12,6 +12,7 @@ maxChar("apple 1231111") === "1"
 // Create variable "maxChar" set it equal to empty string
 // Iterate through given string (Via for of loop), add character as prop to chars, assign value of 1 if new, or add 1 to it
 // Use For In loop to find max 
+// Return maxChar
 
 function maxChar(str) {
   let chars = {};
