@@ -17,7 +17,6 @@ chunk([1, 2, 3, 4, 5], 10) --> [[ 1, 2, 3, 4, 5]]
   // Push a slice of length 'size' from 'array' into 'chunked'
   // Add 'size' to 'index'
 
-
 function chunk(array, size) {
   const chunked = [];
   let index = 0;
