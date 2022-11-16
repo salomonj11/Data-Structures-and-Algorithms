@@ -11,12 +11,12 @@ chunk([1, 2, 3, 4, 5], 10) --> [[ 1, 2, 3, 4, 5]]
 
 ---- Solution ----
 
-// Create empty array to hold chunks called 'chunked'
-// For each element in the 'unchunked' array
-  // Retrieve the last element in 'chunked'
-  // If last element does not exist, or if its length is equal to chunk size
-    // Push a new chunk into 'chunked' with the current element
-  // Else add the current element into the chunk
+// Create empty 'chunked' array
+// Create 'index' start at 0
+// While index is less than array.length
+  // Push a slice of length 'size' from 'array' into 'chunked'
+  // Add 'size' to 'index'
+
 
 function chunk(array, size) {
   const chunked = [];
@@ -33,6 +33,12 @@ function chunk(array, size) {
 ---- Other Solutions ----
 
 // 1) Use a for of loop instead
+// Create empty array to hold chunks called 'chunked'
+// For each element in the 'unchunked' array
+  // Retrieve the last element in 'chunked'
+  // If last element does not exist, or if its length is equal to chunk size
+    // Push a new chunk into 'chunked' with the current element
+  // Else add the current element into the chunk
 
  function chunk(array, size) {
   const chunked = [];
