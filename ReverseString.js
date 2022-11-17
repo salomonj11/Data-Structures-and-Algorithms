@@ -19,7 +19,7 @@ function reverse(str) {
 
 // Create an empty string called reversed
 // For each character in the provided string, take the character and add it to the start of reversed
-//return the variable reversed
+// Return the variable reversed
 
 function reverse(str) {
   let reversed = '';
