@@ -11,6 +11,7 @@ ordering of numbers.
 ---- Solution ----
 
 function reverseInt(n) {
+  // parseFloat used to turn string into floating number
   // return parseFloat, first arg is turning int to string and reversing string, second arg is to multiple by Math.sign to deal with negative numbers.
   return (
     parseFloat(n.toString().split('').reverse().join('')) *
