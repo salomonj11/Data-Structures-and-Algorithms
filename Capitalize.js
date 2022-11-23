@@ -28,7 +28,7 @@ function capitalize(str) {
   
   ---- Other Solutions ----
   
-  // Create an empty string called 'result'
+  // Create 'result' which is the first character of the input string capitalized
   // For each character in the string
     // If character to the left of a space
       // Capitalize it and add it to 'result'
