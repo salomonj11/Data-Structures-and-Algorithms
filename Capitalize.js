@@ -28,6 +28,13 @@ function capitalize(str) {
   
   ---- Other Solutions ----
   
+  // Create an empty string called 'result'
+  // For each character in the string
+    // If character to the left of a space
+      // Capitalize it and add it to 'result'
+    // Else
+      // Add it to 'result'
+  
   function capitalize(str) {
   let result = str[0].toUpperCase();
 
