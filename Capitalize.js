@@ -9,6 +9,14 @@ return the capitalized string.
 
 ---- Solutions ----
 
+// Make empty array 'words'
+// Split the input string by spaces to get an array
+// For each word in the array
+  // Uppercase the first letter of the world
+  // Join first letter with rest of the string
+  // Push result into 'words' array
+// Join 'words' into a string and return it
+
 function capitalize(str) {
   const words = [];
 
