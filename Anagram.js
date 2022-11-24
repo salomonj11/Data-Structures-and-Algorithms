@@ -1,4 +1,4 @@
---- Directions
+--- Directions ---
 Check to see if two provided strings are anagrams of eachother.
 One string is an anagram of another if it uses the same characters
 in the same quantity. Only consider characters, not spaces
