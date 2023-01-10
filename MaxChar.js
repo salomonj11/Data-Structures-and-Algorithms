@@ -5,7 +5,7 @@ commonly used in the string.
 maxChar("abcccccccd") === "c"
 maxChar("apple 1231111") === "1"
 
----- Solution ----
+---- Solution ---
 
 // Create empty object called chars
 // Create variable "max" set equal to 0
