@@ -9,7 +9,7 @@ or punctuation.  Consider capital letters to be the same as lower case
   anagrams('Hi there', 'Bye there') --> False
 
   
- ---- Solution ----
+ ---- Solution 
 
 // Create helper function 'cleanString'
 // Use replace to get rid of special characters and spaces
