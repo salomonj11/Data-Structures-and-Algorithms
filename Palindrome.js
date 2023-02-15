@@ -8,7 +8,7 @@ and punctuation in determining if the string is a palindrome.
   palindrome("abcdefg") === false
 
 
----- Solution ----
+---- Solution 
 
 function palindrome(str) {
   // save into a variable called test, take str, turn into array via split, use reverse function, join via join
